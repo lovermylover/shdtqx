@@ -1,0 +1,33 @@
+:root{
+    /* 导航背景色 */
+    --navBgc: #007dce;
+    /* 导航字体色 */
+    --navColor:#fff;
+    /* 导航交互背景色 */
+    --navActiveBgc: #ff9c00;
+}
+/*  */
+.header_box{margin: 0 auto;position: relative;min-width: 1200px;}
+
+/* 店铺标题、电话 */
+.header_title{width: 1200px;margin: 0 auto; height: 130px;padding: 20px 0;}
+.header_title_name, .header_title_phone{font-size: 30px;color: #FF9C00;font-weight: bold;}
+.header_title_name {width: 620px;height:90px;line-height: 90px;position: relative;float: left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.header_title_name img{max-height: 90px;}
+.header_title_phone {line-height: 90px;float: right;}
+.header_title_phone i{display: inline-block; width: 36px; height: 36px; background: url(../img/shop_header_phone.png) no-repeat; vertical-align: middle; margin-right: 10px; background-size: contain;transform: translateY(-4px);}
+
+/* 店铺横幅 */
+.scroll{left: 50%;transform: translateX(-50%);position: relative;box-sizing: content-box;top: 0px;}
+
+.banner_edit{width: 100%;position: relative;}
+
+
+
+/* 店铺顶部横向导航 */
+.nav_background {height: 47px;width: 100%;background: var(--navBgc);left: 0%;top: 130px;}
+.header_nav{width: 1200px;height: 47px;line-height: 47px;background: var(--navBgc);position: absolute;top: 130px;left: 50%;transform: translateX(-50%); font-size: 0;}
+.header_nav_item{display: inline-block;height: 100%;background: var(--navBgc);color: var(--navColor);text-align: center;font-size: 18px;}
+.header_nav_item:hover{cursor: pointer;background: var(--navActiveBgc);color: var(--navColor);}
+.header_nav_item:hover .header_nav_item_text{color: var(--navColor);}
+.header_nav_item_current{color: var(--navColor);background: var(--navActiveBgc);}

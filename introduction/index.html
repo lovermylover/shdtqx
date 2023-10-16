@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<meta name="keywords" content=""> 
+<meta name="description" content="">    
+<link href="https://www.shdtqx.com/css/reset.css" rel="stylesheet" />
+<link href="https://www.shdtqx.com/css/base_index.css" rel="stylesheet" />
+<link href="https://www.shdtqx.com/css/header.css" rel="stylesheet" />
+<link href="https://www.shdtqx.com/css/productlist_index.css" rel="stylesheet" />
+ <link href="https://www.shdtqx.com/css/left_nav.css" rel="stylesheet" />
+<link href="https://www.shdtqx.com/css/common_footer.css" rel="stylesheet" />
+
+
+
+<style>
+  .scroll {margin: 0 auto;overflow: hidden;position: relative;}
+  .scroll_pic {text-align: center;height: 100%;position: absolute;left: 50%;transform: translateX(-50%);width: 100%;}
+  .scroll ul {padding: 5px 5px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);position: absolute;bottom: 10px;left: 50%;border-radius: 28px}
+  .scroll ul li {float: left;position: relative;display: inline-block;width: 10px;height: 10px;border-radius: 50%;margin: 0 2px;background-color: #fff;opacity: 0.4;border: none}
+  .scroll_pic a {width: 100%;cursor: unset;height: 100%;}
+  .scroll ul li.scroll_in {background: #FF6600}
+  .scroll .banner_img {height: 300px;width: 100%;min-width: 1200px;background-position: center;background-size: auto;background-repeat: no-repeat;}
+  .scroll_pic img{display: block;width: 100%;height: 100%;object-fit: cover;object-position: center;}
+</style>   
+
+<style>
+  @font-face {
+    font-family: 'icon';
+    src: url('//at.alicdn.com/t/font_1357961_e15js7ma3o.eot');
+    src: url('//at.alicdn.com/t/font_1357961_e15js7ma3o.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1357961_e15js7ma3o.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1357961_e15js7ma3o.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1357961_e15js7ma3o.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1357961_e15js7ma3o.svg#iconfont') format('svg');
+  }
+  .float-contact-box {width: 60px;position:fixed;top: 50%;right:0;margin-top: -120px;z-index: 9;}
+  .contact-box-item {width:50px;height: 50px;line-height: 50px; text-align:center;box-shadow: 0px 0px 16px 5px rgba(191,187,187,0.24);border-radius: 50%;margin-top: 20px;background-image: radial-gradient(#333 0 60%,#fff 60% 100%);cursor: pointer;font-size: 0;}
+  .contact-box-item:nth-of-type(1){margin-top: 0;}
+  .contact-box-item > a {display: block;cursor: pointer;font-size: 0;}
+  .contact-box-item:hover{background-image: radial-gradient(var(--templateCommenColor) 0 60%,#fff 60% 100%);}
+  .qq-service-item {position: relative;}
+  .qq-service-item-img,.message-service-item-img,.phone-service-item-img,.top-service-item-img{display: inline-block;margin: 0 auto;}
+
+  #CustomBlock-contact_box-marker-0.edit-marker-edit {display: none;}
+  .back-to-top-item{display: none;}
+</style>
+<style>
+  .qq-service-item-div,.phone-service-item-div{display:block;background-color: #fff;width: 170px;position: absolute;left: -190px;top: -22px;border-radius: 8px;box-shadow: 0px 0px 16px 5px rgba(191,187,187,0.24);padding-bottom: 8px;}
+  .service-item-div-title{height: 45px;line-height: 45px;font-size: 14px;color: #333;border-bottom: 1px solid #ccc;width: 140px;margin: 0 auto;margin-bottom: 8px;}
+  .qq-service-item-span,.phone-service-item-span{font-size: 14px; height: 38px;line-height: 38px;width: 110px;text-align: center;color:#333;display: block;margin: 0 auto;}
+  .qq-service-item-span a{color: #333;}
+</style><link href="https://www.shdtqx.com/css/about_index.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="header_box  have_banner ">
+  
+  <div class="header_title ">
+    <div class="header_title_name "><p><img src="https://www.shdtqx.com/img/logo.jpg" title="logo" alt="logo"></p></div>
+    <div class="header_title_phone"><i></i>021-56119965</div>
+  </div>
+  
+  <div class="nav_background"></div>
+  <div class="header_nav ">
+
+    <a href="/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">首页</span></a>
+
+    <a href="/introduction/" class="header_nav_item  header_nav_item_current  " style="width: 150px;"><span class="header_nav_item_text">公司介绍</span></a>
+
+    <a href="/services/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">服务项目</span></a>
+
+    <a href="/cases/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">成功案例</span></a>
+
+    <a href="/news/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">新闻资讯</span></a>
+
+    <a href="/message/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">留言板</span></a>
+
+    <a href="/contact/" class="header_nav_item " style="width: 150px;"><span class="header_nav_item_text">联系我们</span></a>
+
+    
+  </div>
+  
+  <div class="banner_edit ">
+
+    <div class="scroll" style="height: 473px;">
+      <div class="scroll_pic">
+        <span class="scroll_item " style="display: inline;">
+          <img src="https://www.shdtqx.com/img/banner_1.jpg" alt="上海保洁公司">
+        </span>
+        <span class="scroll_item hide" style="display: none;">
+          <img src="https://www.shdtqx.com/img/banner_2.jpg" alt="上海保洁公司">
+        </span>
+        <span class="scroll_item hide" style="display: none;">
+          <img src="https://www.shdtqx.com/img/banner_3.jpg" alt="上海保洁公司">
+        </span>
+      </div>
+      <ul id="scroll_button">
+        <li class="scroll_in"></li>
+        <li class=""></li>
+        <li class=""></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+</div>
+	<div class="navigation_nav clearfix">
+	<a class="navigation_nav_item hover_color" href="https://www.shdtqx.com">首页</a>
+	
+
+	
+
+	
+	
+
+
+	<p class="navigation_nav_item">&gt;</p>
+	<h1 class="navigation_nav_item">
+		公司介绍
+	</h1>
+	
+	
+</div>
+	<div class="content_box clearfix">
+		<div class="left_box clearfix">
+	
+	<div class="left_contact left_item">
+		<div class="left_item_title"><span>公司信息</span></div>
+		<div class="left_item_content clearfix">
+			<div class="left_item_content_title">公司名称</div>&nbsp;:
+			<div class="left_item_content_text">上海五美环境工程有限公司</div>
+		</div>
+		<div class="left_item_content clearfix">
+			<div class="left_item_content_title">服务地址</div>&nbsp;:
+			<div class="left_item_content_text">上海全部区域均有网点</div>
+		</div>
+	</div>
+	
+	<div class="service_phone left_item">
+		<div class="left_item_title"><span>联系电话</span></div>
+		<div class="left_item_content clearfix" style="height:24px;">
+			<div class="service_phone_item_title">服务热线</div>&nbsp;:
+			<div class="left_item_content_text"><div><span class="aboutus_content_item">021-56119965</span></div></div>
+		</div>
+		<div class="left_item_content clearfix" style="height:24px;">
+			<div class="service_phone_item_title">服务热线</div>&nbsp;:
+			<div class="left_item_content_text"><div><span class="aboutus_content_item">15900709091</span></div></div>
+		</div>
+	</div>
+	
+	
+	<div class="cateinfo left_item clearfix">
+		<div class="clearfix">
+			<div class="left_item_title"><span>服务推荐</span></div>
+		</div>
+
+		
+
+		<div class="cateinfo_item clearfix">
+			<a class="cateinfo_name" href="https://www.shdtqx.com/services/kaihuang/">上海开荒保洁</a>
+			<div class="cateinfo_text">上海开荒保洁</div>
+		</div>
+
+		<div class="cateinfo_item clearfix">
+			<a class="cateinfo_name" href="https://www.shdtqx.com/services/richang/">上海日常保洁</a>
+			<div class="cateinfo_text">上海日常保洁</div>
+		</div>
+
+		<div class="cateinfo_item clearfix">
+			<a class="cateinfo_name" href="https://www.shdtqx.com/services/youyanji/">上海油烟机清洗</a>
+			<div class="cateinfo_text">上海油烟机清洗</div>
+		</div>
+
+		<div class="cateinfo_item clearfix">
+			<a class="cateinfo_name" href="https://www.shdtqx.com/services/baojietuoguan/">上海保洁托管</a>
+			<div class="cateinfo_text">上海保洁托管</div>
+		</div>
+
+	</div>
+</div>
+		<div class="main_content clearfix">
+			<div class="main_item">
+				<div class="main_item_title">
+					<div class="main_item_title_lt">公司介绍</div>
+				</div>
+				<div class="main_item_content about">
+					<div class="format">
+						<p>上海五美环境工程有限公司是一家老字号保洁公司，是上海市极具保洁规模和服务水准的保洁公司之一。为了更好的服务上海，公司特地培养了一批高素质的保洁人员，并进口了一些先进设备和保洁用品。</p>
+<br>
+<p>上海五美环境工程有限公司一直致力于办公楼保洁、厂房保洁、家庭保洁、地板打蜡、清洁卫生、清洗地毯地面、晶面处理、批灰刷墙、清洗空调、清洗沙发椅子等保洁公司和清洗公司清洁服务。公司管理机制完善，物业清洁经验丰富，公司秉承“以创新环境”的企业理念，专业从事室内外保洁清洗服务，以“真诚服务、客户满意”作为我们的质量方针，以“真诚奉献、不断完善、开拓进取”作为我们的服务理念。“热心细致的服务态度，打造温暖亲切的服务氛围”是我们的宗旨：“给你多一份清洁、少一份劳累”是我们的原则。</p>
+<br>
+<p>多年来，在上海为各种类型的客户提供了优质的保洁清洗服务，公司自成立以来，在公司全体同仁的共同努力下，公司得到了长足的发展，同时公司汇集了一批有才能，有干劲的年青人，建立了一个充满活力和朝气的管理团队，培养了一批高效，专业技术良好的保洁人员，赢得了单位的一致好评！</p>
+<br>
+<p>公司全体员工本着“顾客至上”的企业精神，竭诚为广大客户服务。不断创新提高技术标准，扩大市场范围，将服务优势推向更高的层次，使公司立足于同行业的不败之地，共同与您走向辉煌灿烂的未来！朋洁保洁，我们的用心，竭诚为您提供专业的保洁服务。</p>
+<br> 
+<h4 id="公司主要服务项目">公司主要服务项目：</h4>
+<ul>
+<li>1、装潢后保洁、酒店、办公楼、商铺、车展、学校、家庭、厂房、日常保洁、开荒保洁。大型工程骏工后开荒保洁等。</li>
+<li>2、各类地毯、布皮沙发及布艺椅子清洗，窗帘清洗。</li>
+<li>3、外墙幕墙清洗、各类房屋的室内外涂料粉刷。</li>
+<li>4、各类地板清洗、打蜡、抛光。如 PVC 地板、复合地板、大理石、花岗岩、水磨石等。</li>
+<li>5、各类石材翻新、保养、晶面处理及各种病变处理等。</li>
+<li>6、各类地板修复、各类地毯修复。</li>
+</ul>
+<br>
+<p>为了更好的方便广大开户司在本市各区都设有分部:浦东，黄浦，嘉定，徐汇，长宁，静安，卢湾，普陀，安亭，闵行，宝山区等。低碳、环保是我公司的理念，满足客户是我们的追求，服务客户是我们的宗旨，美化环境是我们的目标。</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_title">
+					<div class="main_item_title_lt">服务优势</div>
+				</div>
+				<div class="service_advantage_content clearfix">
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势1</span>
+						<p class="service_advantage_item_title shenglve2">服务：高品质、高效率、高性价比</p>
+					</div>
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势2</span>
+						<p class="service_advantage_item_title shenglve2">创新：新观点、新技术、新方法</p>
+					</div>
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势3</span>
+						<p class="service_advantage_item_title shenglve2">诚信：好口碑、好信誉，好保障</p>
+					</div>
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势4</span>
+						<p class="service_advantage_item_title shenglve2">流程：售前用心、售中细心、售后放心</p>
+					</div>
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势5</span>
+						<p class="service_advantage_item_title shenglve2">责任：规范管理、严格验收、满足需求</p>
+					</div>
+					<div class="service_advantage_item">
+						<span class="service_advantage_item_index">优势6</span>
+						<p class="service_advantage_item_title shenglve2">态度：积极响应、尽职尽责、宾至如归</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer_box">
+    <div class="footer_f1">
+        
+        <a href="/" class="footer_item  " style="width: 150px;">首页</a>
+        <span>|</span>
+        
+        
+        <a href="/introduction/" class="footer_item  " style="width: 150px;">公司介绍</a>
+        <span>|</span>
+        
+        
+        <a href="/services/" class="footer_item  " style="width: 150px;">服务项目</a>
+        <span>|</span>
+        
+        
+        <a href="/cases/" class="footer_item  " style="width: 150px;">成功案例</a>
+        <span>|</span>
+        
+        
+        <a href="/news/" class="footer_item  " style="width: 150px;">新闻资讯</a>
+        <span>|</span>
+        
+        
+        <a href="/message/" class="footer_item  " style="width: 150px;">留言板</a>
+        <span>|</span>
+        
+        
+        <a href="/contact/" class="footer_item  " style="width: 150px;">联系我们</a>
+        
+        
+        
+
+    </div>
+    <div class="footer_f2">
+        <div class="footer_shopname">上海五美环境工程有限公司</div>
+        <span class="footer_shopname">021-56119965</span>
+        <span class="footer_shopname">15900709091</span>
+        <span class="foot_address">上海全部区域均有网点</span>
+    </div>
+    <div class="foot_f4">
+        <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">沪ICP备16031896号</a>
+        <a href="http://www.beian.gov.cn/" rel="nofollow" target="_blank">31011302003600号</a>
+    </div>
+</div>
+
+
+
+<div class="float-contact-box" id="CustomBlock-contact_box">
+    
+    <div class="contact-box-item phone-service-item">
+        <img class="phone-service-item-img" src=" https://www.shdtqx.com/img/phone.png">
+        <div class="phone-service-item-div" style="display: none;">
+            <div class="service-item-div-title">联系我们</div>
+            <div class="phone-service-item-span">
+                <span class="phone-hover-text">021-56119965</span>
+            </div>
+            <div class="phone-service-item-span">
+                <span class="phone-hover-text">15900709091</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-box-item back-to-top-item top-service-item">
+        <img class="top-service-item-img" src="https://www.shdtqx.com/img/top.png">
+    </div>
+</div>
+
+
+
+	<script src="https://www.shdtqx.com/js/jquery.min.js"  ></script>
+<script type="text/javascript">
+	var t = n = i = 0, count;
+	$(function () {
+      count = $(".scroll_pic .scroll_item").length;
+      $(".scroll_pic .scroll_item:not(:first)").hide();
+      $("#scroll_button li").click(function () {
+          i = n = $(this).index();
+          $(".scroll_pic .scroll_item").eq(i).show().siblings().hide();
+          $(this).addClass("scroll_in").siblings().removeClass("scroll_in");
+          
+      });
+      t = setInterval("picShowAuto()", 3000);
+      $(".scroll").hover(function () {
+      	clearInterval(t)
+      }, function () {
+      	t = setInterval("picShowAuto()", 3000);
+      });
+  });
+
+	function picShowAuto() {
+		n = n >= (count - 1) ? 0 : ++n;
+      $("#scroll_button li").eq(n).trigger("click");
+  }
+</script>
+
+
+<script>
+    $(function() {
+        $(document).scroll(function () {
+            if ($(document).scrollTop() > document.body.clientHeight) {
+                $('.contact-box-item').removeClass('radius_item')
+                $('.back-to-top-item').show().addClass('radius_item')
+
+            } else {
+                $('.back-to-top-item').prev().addClass('radius_item')
+                $('.back-to-top-item').hide().removeClass('radius_item')
+            }
+        })
+        $('.phone-service-item').hover(function() {
+            var one = $(".phone-one"),
+                two = $(".phone-two")
+            if (two.length)
+            {
+                $(".phone-one").css('padding-bottom', '0')
+            }
+            $('.phone-service-item > div').show();
+
+            
+        }, function() {
+            $('.phone-service-item > div').hide();
+        });
+
+        $('.qq-service-item').hover(function() {
+            var one = $(".qq-one"),
+                two = $(".qq-two"),
+                three = $(".qq-three"),
+                four = $(".qq-four");
+            if (two.length)
+            {
+                $(".qq-one").css('padding-bottom', '0')
+            }
+            if (three.length)
+            {
+                $(".qq-two").css('padding-bottom', '0')
+            }
+            if (four.length)
+            {
+                $(".qq-three").css('padding-bottom', '0')
+            }
+            $('.qq-service-item > div').show();
+        }, function() {
+            $('.qq-service-item > div').hide();
+        });
+
+        $('.back-to-top-item').on('click', function() {
+            $('html, body').animate({
+                scrollTop: 0
+            });
+        });
+    });
+</script>
+
+
+
+
+
+</body>
+</html>

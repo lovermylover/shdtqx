@@ -1,0 +1,20 @@
+/* 公共样式 */
+.main_item_title{width: 830px;}
+.main_item_title_lt{font-size: 18px;}
+/* 商家资质 */
+.main_item_content.about{display: inline-block;line-height: 28px;text-indent: 2em;font-size: 14px;}
+.main_item_content.qualification{font-size: 0;margin-top: 30px;}
+.qualification_item{display: inline-block;margin-right: 19px;}
+
+.qualification_item:nth-of-type(5n){margin-right: 0;}
+.qualification_item img{width: 150px;height: 150px;border-radius: 5px;border: 1px solid #ccc;cursor: pointer;}
+.qualification_item:hover img{box-shadow:4px 4px 4px #0000004d;}
+.qualification_item_title{text-align: center;font-size: 14px;color: #333;margin-top: 10px;}
+/* 服务优势 */
+.service_advantage_content{padding: 0 34px;}
+.service_advantage_item{display: block;float: left;width: 322px;height: 91px;margin-right: 116px;margin-top: 45px;border: 2px solid #007DCE;border-radius: 5px;background: #fff;box-sizing: border-box;position: relative;text-align: center;line-height: 69px;padding-top: 18px;font-size: 0;}
+.service_advantage_item:nth-of-type(1){margin-top: 15px;}
+.service_advantage_item:nth-of-type(2){margin-top: 15px;}
+.service_advantage_item:nth-of-type(2n){margin-right: 0;}
+.service_advantage_item_index{display: block;position: absolute;width: 100px;height: 35px;line-height: 35px;text-align: center;font-size: 18px;color: #fff;position: absolute;left: 111px;top: -17px;background: #007DCE;border-radius: 5px;}
+.service_advantage_item_title{font-size: 14px;line-height: 22px;display: inline-block;vertical-align: middle;width: 285px;}

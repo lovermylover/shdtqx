@@ -1,0 +1,60 @@
+
+/* 左侧栏公共样式 */
+.left_box{float: left;border-radius: 5px;}
+.left_item{width: 280px;overflow: hidden;padding: 30px;border: 1px solid #e4e4e4;margin-bottom: 30px;border-radius: 5px;}
+.left_item_title{font-size: 18px;color: #007DCE;font-weight: bold;position: relative;left: 0px;height: 40px;line-height: 40px;margin-bottom: 15px;box-sizing: content-box;text-align: center;}
+.left_item_title span{display: inline-block;padding-bottom: 15px;}
+.left_item_title span::before{margin-right: 5px; content: '';background: url( ../img/left_item_title.png) center center no-repeat;background-size: contain;display: inline-block;transform: translateY(7px);width: 48px;height: 28px;}
+.left_item_title span::after{margin-left: 5px; content: '';background: url( ../img/right_item_title.png) center center no-repeat;background-size: contain;display: inline-block;transform: translateY(7px);width: 48px;height: 28px;}
+.left_item_content{font-size: 14px;margin-bottom: 10px;color: #333;}
+.left_item_content:last-of-type{margin-bottom: 0;}
+.left_item_content_title::after{content: '';display: inline-block ;padding-left: 100%;position: absolute;}
+.left_item_content_title{float: left;width: 58px;}
+.left_item_content_title{text-align-last: justify; text-align: justify;}
+.left_item_content_text{float: right;width: 145px;}
+.left_item_content_text a{color: #1155CC;}
+.left_item_content_text a:hover{color: #FF0000;text-decoration: underline;}
+.left_item_content a{color: #4fa4e5;}
+
+/* 联系我们 */
+.left_location{color: #4fa4e5;font-size: 12px;display: inline-block;cursor: pointer;}
+.left_location:hover{color: #FF0000;}
+.left_location::before{content: "";display: inline-block;width: 16px;height: 16px; background: url( ../img/left_location_blue_new.png) no-repeat;margin-right: 2px;background-size: cover;vertical-align: sub;}
+.left_location:hover::before{background: url( ../img/left_location_red.png) no-repeat;margin-right: 2px;background-size: cover;}
+
+/* 电话客服 */
+.service_phone .left_item_content_text{float: none;display: inline-block;width: auto;}
+.service_phone .left_item_content_title{display: inline-block;}
+.service_phone_item_title{display: inline-block;}
+
+/* QQ客服 */
+.QQ_item{display: block;height: 50px;margin-bottom: 15px;font-size: 14px;color: #333;}
+.QQ_item:hover{cursor: pointer;}
+.QQ_item:hover div{color: var(--templateCommenColor);text-decoration: none;}
+.QQ_item:last-of-type{margin-bottom: 0;}
+.QQ_item>div{height: 100%;padding-left: 55px;}
+.QQ_item i{display: inline-block;width: 36px;height: 36px; background: url(../img/left_QQ.png) no-repeat;background-size: cover;float: left;transform: translateY(8px) ;}
+.QQ_name{padding: 3px 0;}
+
+/* 分类信息 */
+.cateinfo .left_item_title{float: left;margin-bottom: 5px;width: 218px;}
+.cateinfo>div{margin-bottom: 10px;position: relative;}
+.left_item_more{display:block;width: 218px;height: 37px;line-height: 37px;text-align: center;margin: 0 auto;background-color: #ccc;border-radius: 5px;font-size: 12px;color: #666;margin: 20px 0;}
+.left_item_more:hover{cursor: pointer;color: fff;text-decoration: underline;}
+.cateinfo_item img{width: 80px;height: 60px;float: left;border-radius: 5px;overflow: hidden;border: 1px solid #eee;}
+.cateinfo .cateinfo_item{display: block;margin-bottom: 10px;font-size: 14px;color: #333;}
+.cateinfo_item:last-of-type{margin-bottom: 0;}
+.cateinfo_name,.cateinfo_text{display: block;line-height: 28px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.cateinfo_text{color: #999;font-size: 12px;}
+.cateinfo_name{padding: 2px 0;color: #333;position: relative;}
+.cateinfo_name:hover{color: var(--templateCommenColor);text-decoration: none;}
+
+/* 联系电话 */
+.aboutus_content_div{position: relative;float: left;}
+span.aboutus_content_item{font-weight: normal;color: #333333!important;}
+/*span.aboutus_content_item:after{content: "****";font-weight: normal;font-size: 14px;display: inline-block;vertical-align: middle;
+    text-align: center;}*/
+span.aboutus_content_item_xing:after{content: '';font-weight: normal;font-size: 14px;display: inline-block;vertical-align: middle;
+    text-align: center;}
+span.aboutus_content_item_name{margin-left: 10px;margin-right: 40px;color: #4fa4e5;cursor: pointer;font-weight: normal;}
+.aboutus_content_item_name:hover{color: #FF0000;}

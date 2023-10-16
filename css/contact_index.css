@@ -1,0 +1,20 @@
+/* 关于我们 */
+.main_item_title{width: 830px;}
+.main_item_title_lt{font-size: 18px;}
+.main_item_content li{margin-bottom: 15px;font-size: 0;}
+.main_item_content li span{display: inline-block; font-size: 16px;vertical-align: middle;}
+span.aboutus_title{margin-right: 15px;width: 70px;}
+
+
+.aboutus_content a{font-size: 13px;color: #fff;background-color: #1c95f2;display: inline-block;width: 90px;height: 28px;line-height: 28px; border-radius: 5px;text-align: center;margin-right: 10px;}
+.aboutus_content a::before{display: inline-block;content: '';width: 15px;height: 15px;background: url(../img/shop_contact_qq.png) no-repeat;background-size: cover;margin-right: 10px;transform: translateY(2px);}
+.aboutus #container{width: 828px;}
+/* 服务流程 */
+.process .process_item_content{text-align: center;font-size: 0;}
+.process_box{display: inline-block;width: 110px;height: 113px;vertical-align: top;margin-right: 33px;position: relative;}
+.process_box:last-child{margin-right: 0;}
+.process_index{display: block;margin: 0 auto;width: 70px;height: 70px;box-sizing: border-box;line-height: 58px;border: 1px dashed #007DCE;border-radius: 50%;font-size: 28px;color: #FF9C00;text-align: center;}
+.process_step{display: block;width: 110px;height: 66px;line-height: 66px;background: #007DCE;border-radius: 5px;font-size: 0;text-align: center;position: absolute;left: 0;bottom: 0;padding: 0 14px;box-sizing: border-box;}
+.process_step span{display: inline-block;vertical-align: middle;text-align: center;font-size: 14px;line-height: 20px;color: #fff;}
+.process_box::after{display: block;content: '';width: 14px;height: 22px;background: url(../img/process_item_arr.png) center center no-repeat;background-size: contain;position: absolute;top: 70px;left: -24px;}
+.process_box:first-child::after{display: none;}

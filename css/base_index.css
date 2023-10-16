@@ -1,0 +1,41 @@
+body{min-height: calc(100vh + 5px);font-size: 0;;background-color: #fff;width: 100%;min-width: 1200px;}
+/* 公共颜色 */
+:root{
+    --templateCommenColor: #007dce;
+    --footer-bg-color: #007dce;
+    --footer-color: #fff;
+}
+/* main公共样式 */
+.shenglve{text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.shenglve2{overflow: hidden; text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.content_box{width: 1200px; margin: 0 auto;position: relative;overflow: hidden;margin-bottom: 10px;}
+.main_content{width: 890px;float: right;border-radius: 5px;font-size: 12px;}
+h1{font-weight: normal;font-size: 14px;color: #333;}
+.main_item_bgc{width: 100%;height: 10px;background-size: cover;background-image: linear-gradient( #0000000d, #fff);}
+.main_item_bgc_up{width: 100%;height: 100%;background-image: linear-gradient(90deg,#fff 0%, #00000003 20%,#00000003 80%, #fff 100%);}
+/* 面包屑 */
+.navigation_nav{padding: 20px 0;margin: 0 auto;width: 1200px;}
+.navigation_nav_item{float: left;font-size: 14px;color: #333;margin-right: 5px;}
+/* main中每个单元的公共样式 */
+.main_item{background: #fff;color: #333;position: relative;padding: 30px;border: 1px solid #e4e4e4;border-radius: 5px;margin-bottom: 30px;}
+.main_item_title{position: relative;width: 858px;height: 40px;line-height: 40px;margin-bottom: 20px;box-sizing: content-box;text-align: center;}
+.main_item_title_lt{font-size: 28px;color: #007DCE;font-weight: bold;}
+.main_item_title_lt::before{margin-right: 20px; content: '';background: url(../img/title_left.png) center center no-repeat;background-size: contain;width: 147px;height: 28px;vertical-align: middle;display: inline-block;transform: translateY(-2px);}
+.main_item_title_lt::after{margin-left: 20px; content: '';background: url(../img/title_right.png) center center no-repeat;background-size: contain;width: 147px;height: 28px;vertical-align: middle;display: inline-block;transform: translateY(-2px);}
+.main_item_title_rt{display: block;margin: 0 auto; cursor: pointer;font-size: 14px;color: #666;text-align: center;width: 200px;height: 37px;line-height: 37px;background-color: #e4e4e4;border-radius: 5px;margin-bottom: 40px;}
+.main_item_title_rt:hover{cursor: pointer;color: #fff;background-color: #ff9c00;}
+/* 分页器 */
+.pagination{text-align: right;color: #333;padding: 50px 0 50px;}
+.pagination li {display: inline-block;border: 1px solid #e4e4e4; height: 30px;line-height: 30px;width: 30px;text-align: center;margin-left: 8px;font-size: 14px;border-radius: 5px;}
+.pagination .prev,.pagination .next{width: 49px;}
+.pagination li.active{background-color: #007DCE;color: #fff;}
+.pagination a{color: #333;display: inline-block;width: 100%;height: 100%;}
+.pagination li:hover a{color: #fff;}
+.pagination li:hover{background-color: #007DCE;}
+.pagination .disabled{color: #999;background-color: #fff !important;}
+/* 缺省页 */
+.no_item {text-align: center;font-size: 14px;color: #333;margin-bottom: 40px;}
+/* 右边悬浮导航 */
+
+/* 鼠标交互颜色 */
+.hover_color:hover{color: red !important;}

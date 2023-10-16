@@ -1,0 +1,41 @@
+/* 留言板 */
+.main_item_title{width: 830px;}
+.main_item_title_lt{font-size: 18px;}
+.message_tip{font-size: 16px;color: #333;text-align: center;padding-left: 62px;}
+.message_item{margin: 20px 0; position: relative;}
+.message_item.agreement ,.message_item.submit{text-align: center;}
+.message_item.agreement span{font-size: 13px;margin-left: 5px;}
+.message_item input{padding-left: 10px;width: 300px;height: 30px;border: 1px solid #ccc;border-radius: 5px;}
+input.submit-msg {padding: 0;width: 130px;height: 36px;line-height: 36px;color: #333;font-size: 13px;border: 1px solid #eee;margin-right: 44px;background-image: linear-gradient(to bottom, #fff, #e6e6e6);cursor: pointer;}
+button.submit-msg {padding: 0;width: 130px;height: 36px;line-height: 36px;color: #333;font-size: 13px;border: 1px solid #eee;margin-right: 44px;background-image: linear-gradient(to bottom, #fff, #e6e6e6);cursor: pointer;}
+
+.message_item textarea {width: 300px;height: 175px;vertical-align: top;border: 1px solid #ccc;border-radius: 5px;resize: none;padding: 10px;outline: none;}
+.message_item textarea::placeholder,.message_item input::placeholder{color: #999;font-size: 13px;}
+.message_item label{display: inline-block;width: 318px;text-align: right;margin-right: 20px;font-size: 16px;color: #333;}
+.message_item label::before{content: '*';color: red;}
+.agreement.message_item label{ margin-left: 54px;width: 144px;margin-right: 0;}
+.agreement label::before,.username label::before,.yxcs label::before{color: transparent;}
+input[type="checkbox"] {width: 15px;height: 21px;}
+span.agreement-link {color: #169BD5;font-size: 13px;cursor: pointer;}
+input#msgcode {width: 210px;margin-right: 8px;}
+button.get-code {width: 79px;height: 30px;line-height: 30px;vertical-align: middle;border-radius: 5px;background-color: #169bd5;color: #fff;}
+button.get-code.send{background-color: #ccc;color: #333;}
+/* 提示语 */
+.error-msg-item {position: absolute;top: 5px;left: 650px;color: red;font-size: 14px;}
+/* 留言墙 */
+.message_list{width: 828px;border-radius: 5px;overflow: hidden;font-size: 0;margin: 0 auto;text-align: center; position: relative;border: 1px solid #cdcdcd;}
+.message_list_item{width: 828px;height: 40px;line-height: 40px;background-color: #f2f2f2;}
+.message_list_item_move{background-color: transparent;}
+/* .content_1 .message_list_item:nth-of-type(2n+1),.content_2 .message_list_item:nth-of-type(2n){background-color: #f8f8f8;}
+.content_1 .message_list_item:nth-of-type(2n),.content_2 .message_list_item:nth-of-type(2n+1){background-color: #f2f2f2;} */
+.message_list_item span{display: inline-block; width: 165px;font-size: 14px;color: #333;}
+.message_list_item_move span,.message_list_item span{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;display: inline-block;padding: 0 20px;}
+.message_list_bgc{height: 40px;width: 860px;position: absolute;}
+.message_list_bgc:nth-of-type(2){top: 40px;background-color: #f8f8f8;}
+.message_list_bgc:nth-of-type(3){top: 80px;background-color: #f2f2f2;}
+.message_list_bgc:nth-of-type(4){top: 120px;background-color: #f8f8f8;}
+/* 留言成功弹窗 */
+.main_content_message{position: relative;}
+.layui-layer-dialog{position: absolute;top: 200px;left: 50%;transform: translateX(-50%);}
+.layui-layer-title{cursor: auto;}
+.layui-layer-btn .layui-layer-btn0{font-size: 12px;}
