@@ -37,9 +37,9 @@
 .swiper-slide a ,.swiper-slide .casebox{display: inline-block;width: 100%; height: 168px;;}
 .casebox img{display: inline-block; width: 100%;height: 100%;border-radius: 5px;}
 .swiper-button-prev.swiper-button-prev-t.hidden-sm.hidden-xs{width: 60px;height: 228px;top: 0px;left: 0;background: #f8f8f8;}
-.swiper-button-prev.swiper-button-prev-t.hidden-sm.hidden-xs::after{background: url(/image/shop/template/117/leftbtn.png) no-repeat;width: 22px; height: 40px;}
+.swiper-button-prev.swiper-button-prev-t.hidden-sm.hidden-xs::after{background: url(../img/leftbtn.png) no-repeat;width: 22px; height: 40px;}
 .swiper-button-next.swiper-button-next-t.hidden-sm.hidden-xs{width: 60px;height: 228px;top: 0px;right: 0;background: #f8f8f8;}
-.swiper-button-next.swiper-button-next-t.hidden-sm.hidden-xs::after{background: url(/image/shop/template/117/rightbtn.png) no-repeat;width: 22px; height: 40px;}
+.swiper-button-next.swiper-button-next-t.hidden-sm.hidden-xs::after{background: url(../img/rightbtn.png) no-repeat;width: 22px; height: 40px;}
 .swiper-button-next:after, .swiper-button-prev:after{font-size: 0 !important;}
 .case_t.text-center{padding: 0 10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;text-align: center;margin-top: 15px;margin-bottom: 25px;font-size: 18px;}
 /* 文章新闻 */
@@ -85,5 +85,5 @@
 .process_index{display: block;margin: 0 auto;width: 80px;height: 80px;box-sizing: border-box;line-height: 68px;border: 1px dashed #007DCE;border-radius: 50%;font-size: 28px;color: #FF9C00;text-align: center;}
 .process_step{display: block;width: 104px;height: 48px;line-height: 48px;background: #007DCE;border-radius: 5px;font-size: 0;text-align: center;position: absolute;left: 0;bottom: 0;padding: 0 12px;box-sizing: border-box;}
 .process_step span{display: inline-block;vertical-align: middle;text-align: center;font-size: 14px;line-height: 20px;color: #fff;}
-.process_box::after{display: block;content: '';width: 16px;height: 25px;background: url(/image/shop/template/117/process_item_arr.png) center center no-repeat;background-size: contain;position: absolute;top: 65px;left: -41px;}
+.process_box::after{display: block;content: '';width: 16px;height: 25px;background: url(../img/process_item_arr.png) center center no-repeat;background-size: contain;position: absolute;top: 65px;left: -41px;}
 .process_box:first-child::after{display: none;}

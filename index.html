@@ -7,13 +7,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title> 上海五美环境工程有限公司</title>
 <meta name="keywords" content=""> 
-<meta name="description" content="">    
-<link href="/css/reset.css" rel="stylesheet" />
-<link href="/css/base_index.css" rel="stylesheet" />
-<link href="/css/header.css" rel="stylesheet" />
-<link href="/css/productlist_index.css" rel="stylesheet" />
+<meta name="description" content="">  
 
-<link href="/css/common_footer.css" rel="stylesheet" />
+<script src="js/mobileRedirect.js"  ></script>
+
+
+<link href="css/reset.css" rel="stylesheet" />
+<link href="css/base_index.css" rel="stylesheet" />
+<link href="css/header.css" rel="stylesheet" />
+<link href="css/productlist_index.css" rel="stylesheet" />
+
+<link href="css/common_footer.css" rel="stylesheet" />
 
 
 
@@ -55,14 +59,14 @@
   .qq-service-item-span,.phone-service-item-span{font-size: 14px; height: 38px;line-height: 38px;width: 110px;text-align: center;color:#333;display: block;margin: 0 auto;}
   .qq-service-item-span a{color: #333;}
 </style>
-	<link href="/css/home_index.css" rel="stylesheet" />
-	<link href="/css/swiper.min.css" rel="stylesheet" />
+	<link href="css/home_index.css" rel="stylesheet" />
+	<link href="css/swiper.min.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="header_box  have_banner ">
   
   <div class="header_title ">
-    <div class="header_title_name "><p><img src="/img/logo.jpg" title="logo" alt="logo"></p></div>
+    <div class="header_title_name "><p><img src="img/logo.jpg" title="logo" alt="logo"></p></div>
     <div class="header_title_phone"><i></i>021-56119965</div>
   </div>
   
@@ -91,13 +95,13 @@
     <div class="scroll" style="height: 473px;">
       <div class="scroll_pic">
         <span class="scroll_item " style="display: inline;">
-          <img src="/img/banner_1.jpg" alt="上海保洁公司">
+          <img src="img/banner_1.jpg" alt="上海保洁公司">
         </span>
         <span class="scroll_item hide" style="display: none;">
-          <img src="/img/banner_2.jpg" alt="上海保洁公司">
+          <img src="img/banner_2.jpg" alt="上海保洁公司">
         </span>
         <span class="scroll_item hide" style="display: none;">
-          <img src="/img/banner_3.jpg" alt="上海保洁公司">
+          <img src="img/banner_3.jpg" alt="上海保洁公司">
         </span>
       </div>
       <ul id="scroll_button">
@@ -158,7 +162,7 @@
 							</li>
 						</ul>
 					</div>
-					<a href="/services/" class="main_item_title_rt">查看更多</a>
+					<a href="services/" class="main_item_title_rt">查看更多</a>
 				</div>
 			</div>
 			
@@ -280,7 +284,7 @@
 							
                     </div>
                 </div>
-                <a href="/cases/" class="main_item_title_rt">查看更多</a>
+                <a href="cases/" class="main_item_title_rt">查看更多</a>
             </div>
         </div>
         
@@ -358,7 +362,7 @@
 
 
         			</div>
-        			<a href="/news/" class="main_item_title_rt">查看更多</a>
+        			<a href="news/" class="main_item_title_rt">查看更多</a>
         		</div>
         	</div>
         </div>
@@ -449,7 +453,7 @@
 <div class="float-contact-box" id="CustomBlock-contact_box">
     
     <div class="contact-box-item phone-service-item">
-        <img class="phone-service-item-img" src=" /img/phone.png">
+        <img class="phone-service-item-img" src=" img/phone.png">
         <div class="phone-service-item-div" style="display: none;">
             <div class="service-item-div-title">联系我们</div>
             <div class="phone-service-item-span">
@@ -462,13 +466,17 @@
     </div>
 
     <div class="contact-box-item back-to-top-item top-service-item">
-        <img class="top-service-item-img" src="/img/top.png">
+        <img class="top-service-item-img" src="img/top.png">
     </div>
 </div>
 
 
 
-<script src="/js/jquery.min.js"  ></script>
+
+
+<script src="js/jquery.min.js"  ></script>
+
+
 <script type="text/javascript">
 	var t = n = i = 0, count;
 	$(function () {
@@ -479,83 +487,83 @@
           $(".scroll_pic .scroll_item").eq(i).show().siblings().hide();
           $(this).addClass("scroll_in").siblings().removeClass("scroll_in");
           
-      });
+        });
       t = setInterval("picShowAuto()", 3000);
       $(".scroll").hover(function () {
       	clearInterval(t)
       }, function () {
       	t = setInterval("picShowAuto()", 3000);
       });
-  });
+    });
 
 	function picShowAuto() {
 		n = n >= (count - 1) ? 0 : ++n;
       $("#scroll_button li").eq(n).trigger("click");
-  }
-</script>
+    }
+  </script>
 
 
-<script>
+  <script>
     $(function() {
-        $(document).scroll(function () {
-            if ($(document).scrollTop() > document.body.clientHeight) {
-                $('.contact-box-item').removeClass('radius_item')
-                $('.back-to-top-item').show().addClass('radius_item')
+      $(document).scroll(function () {
+        if ($(document).scrollTop() > document.body.clientHeight) {
+          $('.contact-box-item').removeClass('radius_item')
+          $('.back-to-top-item').show().addClass('radius_item')
 
-            } else {
-                $('.back-to-top-item').prev().addClass('radius_item')
-                $('.back-to-top-item').hide().removeClass('radius_item')
-            }
-        })
-        $('.phone-service-item').hover(function() {
-            var one = $(".phone-one"),
-                two = $(".phone-two")
-            if (two.length)
-            {
-                $(".phone-one").css('padding-bottom', '0')
-            }
-            $('.phone-service-item > div').show();
+        } else {
+          $('.back-to-top-item').prev().addClass('radius_item')
+          $('.back-to-top-item').hide().removeClass('radius_item')
+        }
+      })
+      $('.phone-service-item').hover(function() {
+        var one = $(".phone-one"),
+        two = $(".phone-two")
+        if (two.length)
+        {
+          $(".phone-one").css('padding-bottom', '0')
+        }
+        $('.phone-service-item > div').show();
 
-            
-        }, function() {
-            $('.phone-service-item > div').hide();
+
+      }, function() {
+        $('.phone-service-item > div').hide();
+      });
+
+      $('.qq-service-item').hover(function() {
+        var one = $(".qq-one"),
+        two = $(".qq-two"),
+        three = $(".qq-three"),
+        four = $(".qq-four");
+        if (two.length)
+        {
+          $(".qq-one").css('padding-bottom', '0')
+        }
+        if (three.length)
+        {
+          $(".qq-two").css('padding-bottom', '0')
+        }
+        if (four.length)
+        {
+          $(".qq-three").css('padding-bottom', '0')
+        }
+        $('.qq-service-item > div').show();
+      }, function() {
+        $('.qq-service-item > div').hide();
+      });
+
+      $('.back-to-top-item').on('click', function() {
+        $('html, body').animate({
+          scrollTop: 0
         });
-
-        $('.qq-service-item').hover(function() {
-            var one = $(".qq-one"),
-                two = $(".qq-two"),
-                three = $(".qq-three"),
-                four = $(".qq-four");
-            if (two.length)
-            {
-                $(".qq-one").css('padding-bottom', '0')
-            }
-            if (three.length)
-            {
-                $(".qq-two").css('padding-bottom', '0')
-            }
-            if (four.length)
-            {
-                $(".qq-three").css('padding-bottom', '0')
-            }
-            $('.qq-service-item > div').show();
-        }, function() {
-            $('.qq-service-item > div').hide();
-        });
-
-        $('.back-to-top-item').on('click', function() {
-            $('html, body').animate({
-                scrollTop: 0
-            });
-        });
+      });
     });
-</script>
+  </script>
 
 
 
 
 
-<script src="/js/swiper.min.js"  ></script>
+<script src="js/swiper.min.js"  ></script>
 <script type="text/javascript">
 	var c_swiper = new Swiper('.case_li', {
 		slidesPerView: 4,
